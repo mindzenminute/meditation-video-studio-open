@@ -1,0 +1,14 @@
+node_modules
+.env
+.env.local
+.env.*.local
+
+.next
+.vercel
+.turbo
+
+public/output/*
+!public/output/.gitkeep
+
+*.log
+.DS_Store
