@@ -38,3 +38,16 @@ L’audio est pré-généré en externe. Remotion assemble la vidéo, synchronis
 
 ```bash
 npm install
+
+
+- installation locale complète
+- lancement de Remotion Studio
+- validation de l’exemple
+- rendu local
+- ingestion du JSON n8n
+- configuration OpenRouter
+- configuration n8n
+- déploiement Vercel
+- explication du format JSON
+- dépannage
+
