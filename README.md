@@ -1,6 +1,4 @@
 # meditation-video-studio-open
-Studio de production de vidéos de méditation guidée avec Remotion, n8n, OpenRouter RAG et Vercel.
-# meditation-video-studio-open
 
 Studio de production de vidéos de méditation guidée de 10 minutes, basé sur :
 
