@@ -1,0 +1,124 @@
+{
+  "title": "Instants de fraîcheur dans une journée",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "audioUrl": "",
+  "audioDurationSeconds": 596,
+  "backgroundStyle": {
+    "type": "gradient",
+    "colors": ["#07131d", "#12324a", "#0d4b5e"],
+    "angle": 160,
+    "animation": "slow-pan"
+  },
+  "branding": {
+    "title": "Instants de fraîcheur dans une journée",
+    "subtitle": "Méditation guidée · 10 minutes",
+    "fontFamily": "'Inter', 'Helvetica Neue', Arial, sans-serif",
+    "primaryColor": "#EAF6FF",
+    "secondaryColor": "#BBD7EA",
+    "accentColor": "#88B7D5",
+    "backgroundColor": "#07131d",
+    "overlayOpacity": 0.22
+  },
+  "pauseRules": {
+    "minPauseSeconds": 1.0,
+    "maxPauseSeconds": 3.5,
+    "pauseAfterSentenceSeconds": 0.75,
+    "pauseAfterParagraphSeconds": 2.4,
+    "breathPauseEverySeconds": 45,
+    "enableMicroPauses": true
+  },
+  "segments": [
+    {
+      "type": "intro",
+      "id": "intro",
+      "durationSeconds": 8,
+      "text": "Bienvenue dans cette pause de dix minutes."
+    },
+    {
+      "type": "breathing",
+      "id": "breathing",
+      "durationSeconds": 18,
+      "text": "Suivez le rythme du cercle."
+    },
+    {
+      "type": "guidance",
+      "id": "guidance",
+      "durationSeconds": 555,
+      "subsections": [
+        {
+          "id": "guidance-01",
+          "text": "Installez-vous confortablement, les épaules relâchées. Pendant quelques minutes, laissez la journée se déposer.",
+          "pauseAfterSeconds": 2.4
+        },
+        {
+          "id": "guidance-02",
+          "text": "Prenez conscience du contact du corps avec le support. Le poids devient plus simple, plus stable.",
+          "pauseAfterSeconds": 2.4
+        },
+        {
+          "id": "guidance-03",
+          "text": "Imaginez une lumière fraîche, comme une brise légère, qui entre avec l'inspiration.",
+          "pauseAfterSeconds": 2.4
+        },
+        {
+          "id": "guidance-04",
+          "text": "À chaque expiration, la chaleur inutile se dissipe. L'esprit gagne en clarté.",
+          "pauseAfterSeconds": 2.4
+        },
+        {
+          "id": "guidance-05",
+          "text": "Accueillez les sensations présentes, sans les juger. Elles passent comme des nuages.",
+          "pauseAfterSeconds": 2.4
+        },
+        {
+          "id": "guidance-06",
+          "text": "Si une pensée s'attarde, reconnaissez-la doucement, puis revenez au souffle.",
+          "pauseAfterSeconds": 2.4
+        },
+        {
+          "id": "guidance-07",
+          "text": "Sentez l'air plus frais au bord des narines. Il dépose une ondée de calme.",
+          "pauseAfterSeconds": 2.4
+        },
+        {
+          "id": "guidance-08",
+          "text": "Le visage se détend, la mâchoire se desserre, le front devient plus lisse.",
+          "pauseAfterSeconds": 2.4
+        },
+        {
+          "id": "guidance-09",
+          "text": "À présent, laissez cette fraîcheur descendre dans la poitrine et le ventre.",
+          "pauseAfterSeconds": 2.4
+        },
+        {
+          "id": "guidance-10",
+          "text": "Chaque respiration élargit un espace paisible, juste là, au centre de vous.",
+          "pauseAfterSeconds": 2.4
+        },
+        {
+          "id": "guidance-11",
+          "text": "Vous pouvez revenir à cette sensation à tout moment, dans la journée.",
+          "pauseAfterSeconds": 2.4
+        },
+        {
+          "id": "guidance-12",
+          "text": "Gardez cette clarté douce, puis laissez-la se fondre dans le silence.",
+          "pauseAfterSeconds": 2.0
+        }
+      ]
+    },
+    {
+      "type": "outro",
+      "id": "outro",
+      "durationSeconds": 15,
+      "text": "Merci d'avoir médité."
+    }
+  ],
+  "metadata": {
+    "source": "n8n",
+    "ragProvider": "openrouter",
+    "theme": "Instants de fraîcheur dans une journée"
+  }
+}
